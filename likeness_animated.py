@@ -171,7 +171,7 @@ def main_animate(data, save=False):
     ani = animation.FuncAnimation(fig, run, data_gen, save_count=frames, repeat=False)
     if save:
         ani.save('outputs/likeness_animation.mp4', fps=fps)
-    else:
+    else:+++
         plt.show()
 
 def main_static(data, save=False):
